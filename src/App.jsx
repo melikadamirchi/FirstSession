@@ -10,7 +10,7 @@ import Comp8 from "./Comp8";
 import Comp9 from "./Comp9";
 import Comp10 from "./Comp10";
 import { Navbar } from "./pages/Navbar";
-import "./css/stylesComp3.css";
+
 import { HashRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 function App() {
