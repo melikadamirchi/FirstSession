@@ -1,0 +1,25 @@
+.imgHelloworld {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.Melika {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+}
+.linkLinkedin {
+  color: black;
+}
+.icn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5%;
+}
+.imgsmall {
+  width: 2rem;
+}

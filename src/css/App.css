@@ -1,0 +1,26 @@
+.main_home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Crucial for pushing the footer to the bottom */
+}
+
+.main-content {
+  /* Add this class to wrap your route content */
+  flex-grow: 1;
+  padding-bottom: 1rem; /* Adds spacing between content and footer */
+}
+
+.footer {
+  /* Style your footer as you prefer */
+
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Add responsive adjustments using media queries as needed */
+@media (max-width: 768px) {
+  /* Add responsive styles for smaller screens */
+  .footer {
+    padding: 0.5rem 0;
+  }
+}
